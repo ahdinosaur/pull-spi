@@ -1,0 +1,38 @@
+{
+  "name": "pull-spi",
+  "version": "1.0.0",
+  "description": "sink pull stream for SPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livejs/pull-spi.git"
+  },
+  "keywords": [
+    "stream",
+    "pull-stream",
+    "pull",
+    "spi",
+    "beaglebone",
+    "pi"
+  ],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livejs/pull-spi/issues"
+  },
+  "homepage": "https://github.com/livejs/pull-spi#readme",
+  "dependencies": {
+    "pi-spi": "^1.0.1",
+    "pull-stream": "^3.2.0"
+  },
+  "devDependencies": {
+    "2dpixels-terminal": "^3.0.0",
+    "ndpixels-convert": "^1.1.0",
+    "pixels-apa102": "^1.1.0",
+    "raf": "^3.2.0",
+    "rainbow-pixels": "^4.0.0"
+  }
+}
